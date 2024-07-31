@@ -15,7 +15,7 @@ function Hero() {
                   <span>Getnet Amsalu Hailu</span>
               </h3>
               <h3 className="my-profession">
-                I' m a <span className="typing">Full Stack</span>
+                I' m a <span className="typing">Full Stack Developer</span>
               </h3>
 
               <p className="introPara">

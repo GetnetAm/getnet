@@ -41,16 +41,8 @@ function About() {
                   Name: <span>Getnet Amsalu Hailu</span>
                 </p>
               </div>
-              <div className="info-item">
-                <p>
-                  Email: <span>getnetamsalu2119@gmail.com</span>
-                </p>
-              </div>
-              <div className="info-item">
-                <p>
-                  Phone: <span>+251928646363</span>
-                </p>
-              </div>
+            
+           
               <div className="info-item">
                 <p>
                   Age: <span>26</span>

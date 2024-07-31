@@ -5,11 +5,13 @@ import Topbar from "./global/topbar/Topbar";
 import Sidebar from "./global/sidebar/Sidebar";
 import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
-import Portfolio from "./pages/portfolio/Portfolio";
 import Certeficate from "./pages/certeficate/Certeficate";
 import Education from "./pages/education/Education";
 import { useState } from "react";
 import TestimonialA from "./pages/testimonials/TestimonialA";
+import Portfoilo from "./pages/portfolio/Portfoilo";
+
+
 
 
 
@@ -38,7 +40,7 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/skills" element={<Skills />} />
 
-            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio" element={<Portfoilo />} />
             <Route path="/certeficate" element={<Certeficate />} />
             <Route path="/testimonial" element={< TestimonialA/>} />
             

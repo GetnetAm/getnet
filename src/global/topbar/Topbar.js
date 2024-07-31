@@ -1,8 +1,8 @@
-
 import { FaGithub } from "react-icons/fa";
-import { FaStackOverflow } from "react-icons/fa6";
+
 
 import MenuIcon from '@mui/icons-material/Menu';
+import { ImStackoverflow } from "react-icons/im";
 
 import "./topbar.css";
 import { Link } from "react-router-dom";
@@ -23,8 +23,9 @@ function Topbar({OpenSidebar}) {
     
 
       <div className="header-right">
+                
       <Link to="https://github.com/GetnetAm" className="link">  <FaGithub className="icon" /></Link>
-        <Link to="https://stackoverflow.com/users/22035105/getnet-amsalu" className="link">  <FaStackOverflow className="icon" /></Link>
+        <Link to="https://stackoverflow.com/users/22035105/getnet-amsalu" className="link"><ImStackoverflow className="icon" /></Link>
 
       
      

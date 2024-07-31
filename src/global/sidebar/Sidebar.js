@@ -1,5 +1,4 @@
 import HomeIcon from "@mui/icons-material/Home";
-
 // import { Link } from "react-router-dom";
 import SchoolIcon from "@mui/icons-material/School";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
@@ -7,7 +6,6 @@ import FolderSpecialIcon from "@mui/icons-material/FolderSpecial";
 
 import userlogo from "../../assests/images/user2.jpg";
 import PersonIcon from "@mui/icons-material/Person";
-import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { Link } from "react-router-dom";
 import { GiSkills } from "react-icons/gi";
 import { FaPeopleLine } from "react-icons/fa6";
@@ -79,12 +77,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             <FaPeopleLine /> Testimonial
           </Link>
         </li>
-      
-        <li className="sidebar-list-item" id={activeLink === 'contact' ? 'active' : ''}>
-          <Link className="link" to="/contact"  id={activeLink === 'cotact' ? 'active' : ''} onClick={() => handleLinkClick('contact')}>
-            <ContactPhoneIcon /> Contact Us
-          </Link>
-        </li>
+    
       </ul>
     </aside>
   );
