@@ -1,7 +1,6 @@
-import { FaSearch, FaTelegram } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa6";
 
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -24,10 +23,9 @@ function Topbar({OpenSidebar}) {
     
 
       <div className="header-right">
-        <Link to="https://t.me/Get2119" className="link"><FaTelegram className="icon" /></Link>
-        <Link to="mailto:getnetamsalu2119@gmail.com" className="link">  <MdEmail className="icon" /></Link>
-        <Link to="https://www.linkedin.com/in/getnet-amsalu-04b325313?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQ2674EHSR%2BO4z9F1UJx%2BiA%3D%3D" className="link">   <FaLinkedin  className="icon" /></Link>
-        <Link to="https://github.com/GetnetAm" className="link">  <FaGithub className="icon" /></Link>
+      <Link to="https://github.com/GetnetAm" className="link">  <FaGithub className="icon" /></Link>
+        <Link to="https://stackoverflow.com/users/22035105/getnet-amsalu" className="link">  <FaStackOverflow className="icon" /></Link>
+
       
      
       

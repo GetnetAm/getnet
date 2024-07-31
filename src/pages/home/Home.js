@@ -19,7 +19,6 @@ function Home() {
         <Skills />
         <Portfolio />
         <TestimonialA />
-
         <Footer />
        
        

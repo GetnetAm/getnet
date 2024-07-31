@@ -1,6 +1,5 @@
 import HomeIcon from "@mui/icons-material/Home";
-import ClearIcon from "@mui/icons-material/Clear";
-import DisabledByDefaultIcon from '@mui/icons-material/DisabledByDefault';
+
 // import { Link } from "react-router-dom";
 import SchoolIcon from "@mui/icons-material/School";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
@@ -10,7 +9,6 @@ import userlogo from "../../assests/images/user2.jpg";
 import PersonIcon from "@mui/icons-material/Person";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import { Link } from "react-router-dom";
-import MenuIcon from '@mui/icons-material/Menu';
 import { GiSkills } from "react-icons/gi";
 import { FaPeopleLine } from "react-icons/fa6";
 import "./sidebar.css";
