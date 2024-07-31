@@ -1,24 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/home/Home";
+import Topbar from "./global/topbar/Topbar";
+import Sidebar from "./global/sidebar/Sidebar";
+import About from "./pages/about/About";
+import Skills from "./pages/skills/Skills";
+import Portfolio from "./pages/portfolio/Portfolio";
+import Certeficate from "./pages/certeficate/Certeficate";
+import Education from "./pages/education/Education";
+import { useState } from "react";
+import TestimonialA from "./pages/testimonials/TestimonialA";
+
+
+
 
 function App() {
+  const [openSidebarToggle, setOpenSidebarToggle]= useState(false)
+
+  const OpenSidebar=()=>{
+    setOpenSidebarToggle(!openSidebarToggle)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <div className="main-site">
+     <div className="grid-container">
+      
+     <Topbar OpenSidebar={OpenSidebar}/>
+
+      <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar} />
+
+        <div className="main-container">
+          <Routes>
+            {/* <Route exact path="/GetnetPortfolio" element ={<Home />} />  */}
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/skills" element={<Skills />} />
+
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/certeficate" element={<Certeficate />} />
+            <Route path="/testimonial" element={< TestimonialA/>} />
+            
+  
+            
+          </Routes>
+        </div>
+      </div>
+     </div>
+    </>
   );
 }
 
