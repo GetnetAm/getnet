@@ -13,8 +13,8 @@ import ScrollToTop from './components/scroller/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <BrowserRouter basename='/GetnetPortfolio'>
-  <BrowserRouter>
+  <BrowserRouter basename='/getnet'>
+
   <React.StrictMode>
   <ToastContainer />
     < ScrollToTop />

@@ -34,7 +34,7 @@ function App() {
 
         <div className="main-container">
           <Routes>
-            {/* <Route exact path="/GetnetPortfolio" element ={<Home />} />  */}
+            <Route exact path="/getnet" element ={<Home />} /> 
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/education" element={<Education />} />
