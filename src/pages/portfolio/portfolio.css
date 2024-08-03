@@ -66,7 +66,7 @@
   .content{
     /* background-color: #FAE7A5; */
     background-color: hsl(212, 80%, 82%);
-    width: 600px;
+    width: 700px;
     padding: 5px;
  
   }
@@ -76,10 +76,9 @@
     align-items: center;
     overflow-x: scroll;
     background-color: #FAE7A5;
+
    
   }
- 
- 
   .description{
     text-align: justify;
     background-color: hsl(212, 80%, 82%);
